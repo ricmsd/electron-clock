@@ -1,0 +1,23 @@
+{
+  "name": "electron-clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricmsd/electron-clock.git"
+  },
+  "author": "ricmsd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricmsd/electron-clock/issues"
+  },
+  "homepage": "https://github.com/ricmsd/electron-clock#readme",
+  "devDependencies": {
+    "electron": "^22.0.3"
+  }
+}
