@@ -5,7 +5,9 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/ricmsd/electron-clock#readme",
   "devDependencies": {
-    "electron": "^22.0.3"
+    "electron": "^22.0.3",
+    "electron-builder": "^23.6.0"
   }
 }
